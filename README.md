@@ -38,3 +38,10 @@ function logo_slider_register_dynamic_blocks() {
   );
 }
 add_action('init', 'logo_slider_register_dynamic_blocks');
+```
+3. That’s it! You can now use the Logo Slider block in your Gutenberg editor without installing any additional plugins.
+
+## License
+This project is licensed under the MIT License: Copyright <2025>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so.
