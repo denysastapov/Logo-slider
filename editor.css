@@ -1,0 +1,57 @@
+.logo-slider-editor {
+  overflow: hidden;
+  padding: 10px;
+  border: 1px dashed #ccc;
+}
+.logo-slider-preview {
+  margin-top: 15px;
+}
+
+.logo-slider-editor {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px dashed #ccc;
+}
+
+.logo-slider-preview {
+  margin-top: 15px;
+}
+
+.logo-slider-link-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.logo-slider-link-thumb {
+  width: 60px;
+  height: 24px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-slider-link-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.swiper-pagination {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}

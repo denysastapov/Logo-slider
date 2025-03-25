@@ -1,0 +1,36 @@
+{
+  "apiVersion": 2,
+  "name": "custom/logo-slider",
+  "title": "Logo Slider",
+  "category": "common",
+  "icon": "images-alt2",
+  "description": "A dynamic logo slider block.",
+  "attributes": {
+    "items": {
+      "type": "array",
+      "default": []
+    },
+    "slidesPerView": {
+      "type": "number",
+      "default": 4
+    },
+    "sliderSpeed": {
+      "type": "number",
+      "default": 5000
+    },
+    "gap": {
+      "type": "number",
+      "default": 20
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "editorScript": "file:./build/editor.bundle.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css"
+}
